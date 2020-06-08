@@ -1,10 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    color:#111;
+}
+
 body {
-  padding-top: 50px;
+    background:#fff;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+.content-line {
+    width:100%;
+    padding:0px 0px 5px 0px;
+    background:#bf2bff;
 }
-#headshot {
-    width: 500px;
+
+.content-alert span {
+    float:right;
+    color:#fff;
+    line-height:20px;
+    margin-right:5px;
+}
+
+.content-alert {
+    width:auto;
+    padding:20px;
+    background:#000;
+}
+
+.content-alert p {
+    color:#fff;
+    font-size:12px;
+    text-align:center;
+}
+
+.content {
+    margin:50px;
+}
+
+.content h1 {
+    font-size:70px;
+}
+
+.content h4 {
+    font-size:25px;
+    font-family: 'Pacifico', cursive !important;
+}
+
+.content img {
+    width:100%;
+}
+
+.sub-content {
+    text-align:center;
+}
+
+.sub-content p {
+    font-family: 'Montserrat', sans-serif;
+    margin-left:200px;
+    margin-right:200px;
+    margin-bottom:30px;
+    font-size:11px;
+}
+
+
+@media (max-width:768px) {
+    .content {
+        margin:0 !important;
+        text-align:center;
+    }
+    .content h1 {
+        font-size:35px;
+    }
+    .content h4 {
+        margin:50px;
+    }
+    .content img {
+        width:100% !important;
+        text-align:center !important;
+        margin:0 !important;
+    }
+    .sub-content p {
+        margin-left:10px !important;
+        margin-right:10px !important;
+        margin:50px;
+    }
+}
+
+
+@media (min-width:1368px) {
+    * {
+        text-align:center !important;
+    }
+    .content h1 {
+        font-size:150px;
+    }
+    .content h4 {
+        font-size:50px;
+    }
+    .content img {
+        width:1500px;
+    }
+    .content-alert span {
+        float:right;
+        color:#fff;
+        line-height:20px;
+        margin-right:5px;
+    }
+    
+    .content-alert {
+        width:auto;
+        padding:20px;
+        background:#000;
+    }
+    
+    .content-alert p {
+        color:#fff;
+        font-size:25px;
+        text-align:center;
+    }
 }

@@ -1,10 +1,10 @@
 {
-  "name": "node-js",
+  "name": "node-js-template",
   "version": "1.0.0",
-  "description": "https://twitter.com/tyreesjohnson",
+  "description": "joma's template",
   "main": "index.js",
   "dependencies": {
-    "ejs": "^2.7.4",
+    "ejs": "^2.5.9",
     "express": "^4.16.3",
     "request": "^2.85.0",
     "tape": "^4.9.0"
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tyreesjohnson/index.git"
+    "url": "git+https://github.com/jomaoppa/node-js-template.git"
   },
   "keywords": [
     "node"
   ],
-  "author": "Tyrees Johnson",
+  "author": "Joma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tyreesjohnson/"
+    "url": "https://github.com/jomaoppa/node-js-template/issues"
   },
-  "homepage": "https://github.com/tyreesjohnson/"
+  "homepage": "https://github.com/jomaoppa/node-js-template#readme"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "node-js",
-  "description": "https:/twitter.com/tyreesjohnson",
+  "name": "Node.js template",
+  "description": "A barebones Node.js app using Express 4",
   "keywords": ["node", "express", "heroku"]
 }
